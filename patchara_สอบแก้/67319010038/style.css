@@ -1,0 +1,41 @@
+.form1{
+    background-color: #b692c2;
+    height:50%;
+    width:45% ;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 20px 20px 20px;
+}
+
+.form2{
+    background-color: #ffdfd6;
+    height:fit-content;
+    width:fit-content ;
+    padding: 20px 20px 20px 20px;
+    border-radius: 9px;
+}
+.form3{
+    height: 30px;
+    width: 80%;
+    background-color: #694f8e;
+    border-radius: 9px;
+    border-color: #694f8e;
+    border-style:double ;
+    
+}
+.form4{
+    height: 40px;
+    width: 60%;
+    background-color: #b692c2;
+    border-color: #b692c2;
+    border-style:double ;
+    border-radius: 5px;
+}
+input{
+    width: 20%;
+}
+button{
+    background-color: aliceblue;
+}

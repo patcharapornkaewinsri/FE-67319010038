@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="form1"><center>
+        <h2>สอบเขียนโปรแกรมบนเว็บ:เครื่องคิดเลข</h1>
+        <h2>ผู้สอบ:นางสาวพัชราภรณ์ แก้วอินทร์ศรี</h2>
+        <div class="form2">
+            <div class="form3">
+                <h4 style="margin-top: 2px; margin-bottom: 0%; color: #ffffff;">กรุณากรอกข้อมูลเพื่อคำนวณ</h4>
+            </div>
+            <hr>
+            <br>
+            
+            <input  type="number" id="num1" onfocusout = "calculate()">
+            <select  id="operation" onclick="calculate()" >
+                <option  value="+" >+</option>
+                <option  value="-">-</option>
+                <option   value="*">*</option>
+                <option  value="/">/</option>
+            </select>
+            <input  type="number" id="num2" onfocusout ="calculate()" >
+            <h3>ผลลัพธ์</h3>
+            <div class="form4" >
+                <p style=" margin: 2% 0% 0% 0%; color: #ffffff; font-size: 25px;" id="output">แสดงผลลัพธ์</p>
+            </div>
+    </center>
+        
+        </div>
+    </div>
+</body>
+</html>

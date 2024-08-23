@@ -1,0 +1,15 @@
+img{
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow:  10px 5px 5px #aaaaaa;
+}
+.nav_arrow{
+    display: inline-block;
+    padding: 5px ;
+    background-color: paleturquoise;
+}
+.btn{
+    background-color: rgb(18, 96, 240);
+    color: rgb(0, 255, 255);
+    border-radius: 10px;
+}
